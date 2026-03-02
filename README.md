@@ -25,7 +25,3 @@ Norėdami peržiūrėti pavyzdinę formą naršyklėje:
 
  - startuokite aplikaciją dev rėžime: `npm run build`;
  - naršyklėje atidarykite [http://http://localhost:4200/](http://http://localhost:4200/);
-
-## *npm* biblioteka
-
-Versijuojama sukompiliuota *npm* biblioteka bus prieinama artimiausiu metu.
