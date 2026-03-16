@@ -1,7 +1,7 @@
 {
   "name": "@registrucentras/rc-ses-angular-components",
   "author": "VĮ REGISTRŲ CENTRAS",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "RC SES Angular komponentų biblioteka",
   "scripts": {
     "dev": "ng serve",
@@ -10,6 +10,8 @@
     "build": "ng build app",
     "build:lib": "ng build @registrucentras/rc-ses-angular-components",
     "watch": "ng build --watch --configuration development",
+    "lint": "ng lint",
+    "lint:fix": "ng lint --fix",
     "test": "ng test",
     "test:run": "ng test --no-watch --browsers=ChromeHeadlessCI",
     "test:coverage": "ng test --no-watch --browsers=ChromeHeadlessCI --code-coverage"
@@ -31,10 +33,14 @@
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@angular-devkit/build-angular": "^18.1.0",
     "@angular/cli": "^18.1.0",
     "@angular/compiler-cli": "^18.1.0",
+    "@angular-eslint/builder": "^20.6.0",
     "@types/jasmine": "~5.1.0",
+    "angular-eslint": "^20.6.0",
+    "eslint": "^9.39.1",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -43,6 +49,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "karma-junit-reporter": "^2.0.1",
     "ng-packagr": "^18.1.0",
-    "typescript": "~5.5.2"
+    "typescript": "~5.5.2",
+    "typescript-eslint": "^8.46.4"
   }
 }
